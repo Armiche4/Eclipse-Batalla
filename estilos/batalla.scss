@@ -1,0 +1,11 @@
+:host {
+  button {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    flex-direction: column;
+  }
+}
