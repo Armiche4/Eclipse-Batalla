@@ -17,17 +17,6 @@ export class CaracteristicasNAves extends LitElement {
   };
   constructor() {
     super();
-    this.nave = {
-      cantidadNaves: 1,
-      dados: [{ dadosFuerza: "2", dadosNumero: 1 }],
-      escudos: 1,
-      id: 0,
-      iniciativa: 2,
-      jugador: "defensor",
-      negativos: -1,
-      positivos: 1,
-      tipoNave: "deathmoon",
-    };
   }
 
   renderImagenCanon(potenciaImpacto) {
@@ -60,12 +49,12 @@ export class CaracteristicasNAves extends LitElement {
       />
       ${this.nave.escudos} |
       <img
-        src="    https://assets.dized.app/project/5f042c9e-22cc-4c59-be85-6e0a55abd8d3/en-US/eb51938ff9a3aaa135a6ae051260d1ab/f5248c43-3f36-4150-b24e-e5c1f04be785-4579d050106fd71f52776c1a7e3de08d.png"
+        src="https://assets.dized.app/project/5f042c9e-22cc-4c59-be85-6e0a55abd8d3/en-US/eb51938ff9a3aaa135a6ae051260d1ab/f5248c43-3f36-4150-b24e-e5c1f04be785-4579d050106fd71f52776c1a7e3de08d.png"
         alt="shield"
       />
       ${this.nave.negativos} |
       <img
-        src=" https://assets.dized.app/project/5f042c9e-22cc-4c59-be85-6e0a55abd8d3/en-US/eb51938ff9a3aaa135a6ae051260d1ab/cbd51eaa-6838-46de-a93b-e0e3aeee508d-4579d050106fd71f52776c1a7e3de08d.png"
+        src="https://assets.dized.app/project/5f042c9e-22cc-4c59-be85-6e0a55abd8d3/en-US/eb51938ff9a3aaa135a6ae051260d1ab/cbd51eaa-6838-46de-a93b-e0e3aeee508d-4579d050106fd71f52776c1a7e3de08d.png"
         alt="Computers "
       />
       ${this.nave.positivos}
