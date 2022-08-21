@@ -1,4 +1,4 @@
-import { LitElement, html, css, nothing } from "lit";
+import { LitElement, html, css } from "../node_modules/lit";
 import { addItem, removeItem } from "../servicios/funciones.js";
 
 export class Formulario extends LitElement {

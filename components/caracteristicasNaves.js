@@ -1,4 +1,4 @@
-import { LitElement, html, css } from "lit";
+import { LitElement, html, css } from "../node_modules/lit";
 
 export class CaracteristicasNAves extends LitElement {
   static styles = [

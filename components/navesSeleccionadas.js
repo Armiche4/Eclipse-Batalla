@@ -1,4 +1,4 @@
-import { LitElement, html, css, nothing } from "lit";
+import { LitElement, html, css } from "../node_modules/lit";
 import { getCombatientes } from "../servicios/funciones.js";
 export class NavesSEleccionadas extends LitElement {
   static styles = [
