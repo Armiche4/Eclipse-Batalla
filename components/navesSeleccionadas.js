@@ -40,8 +40,15 @@ export class NavesSEleccionadas extends LitElement {
       }
       .buttonBorrar {
         color: white;
-        background-color: black;
+        background-color: grey;
         text-transform: capitalize;
+        margin: 2.5px;
+      }
+      button:active {
+        color: black;
+        background-color: #c1c1c1;
+
+        border-color: black;
       }
     `,
   ];
@@ -103,7 +110,7 @@ export class NavesSEleccionadas extends LitElement {
                   >
                     x
                   </button>
-                </li>`
+                </li> `
             )}
           </div>
           <div>
@@ -118,7 +125,7 @@ export class NavesSEleccionadas extends LitElement {
                   >
                     x
                   </button>
-                </li>`
+                </li> `
             )}
           </div>
         </div>

@@ -48,7 +48,7 @@ export class Batalla extends LitElement {
       }
       .ButtonFinalizar {
         color: rgb(255, 255, 255);
-        background-color: black;
+        background-color: #2c2b2b;
         border: 1px solid grey;
         text-transform: uppercase;
         margin: 5px;
@@ -58,6 +58,12 @@ export class Batalla extends LitElement {
 
         padding: 13px 30px;
         animation-name: caca;
+      }
+      .ButtonFinalizar:active {
+        color: black;
+        background-color: #c1c1c1;
+
+        border-color: black;
       }
 
       .combatiente {

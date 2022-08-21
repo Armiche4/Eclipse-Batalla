@@ -52,10 +52,12 @@ export class FormularioSImple extends LitElement {
         height: 40px;
         border-radius: 50%;
         color: white;
-        background-color: black;
+        background-color: grey;
         margin: 1.5px;
         font-size: 30px;
+        border-color: grey;
       }
+
       .buttonMove {
         color: #fff;
         background-color: grey;
@@ -72,6 +74,12 @@ export class FormularioSImple extends LitElement {
         background-color: #666;
         border: 1px solid #666;
         color: white;
+      }
+      button:active {
+        color: black;
+        background-color: #c1c1c1;
+
+        border-color: black;
       }
     `,
   ];
