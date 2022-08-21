@@ -3,3 +3,4 @@ import "./components/formularioSimple.js";
 import "./components/navesSeleccionadas.js";
 import "./components/batalla.js";
 import "./components/batallaAutomatica";
+import "./components/caracteristicasNaves";

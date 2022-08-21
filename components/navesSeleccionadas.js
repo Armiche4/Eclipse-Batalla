@@ -40,7 +40,7 @@ export class NavesSEleccionadas extends LitElement {
       }
       .buttonBorrar {
         color: white;
-        background-color: grey;
+        background-color: red;
         text-transform: capitalize;
         margin: 2.5px;
       }
@@ -103,14 +103,15 @@ export class NavesSEleccionadas extends LitElement {
             ${this.atacanteNaves?.map(
               (item) =>
                 html`<li>
-                  ${item.tipoNave}
-                  <button
-                    class="buttonBorrar"
-                    @click=${() => this.borrarUno(item.tipoNave, "atacante")}
-                  >
-                    x
-                  </button>
-                </li> `
+                    ${item.tipoNave}
+                    <button
+                      class="buttonBorrar"
+                      @click=${() => this.borrarUno(item.tipoNave, "atacante")}
+                    >
+                      x
+                    </button>
+                  </li>
+                  <caracteristicas-naves .nave=${item}></caracteristicas-naves>`
             )}
           </div>
           <div>
@@ -118,14 +119,17 @@ export class NavesSEleccionadas extends LitElement {
             ${this.defensorNaves?.map(
               (item) =>
                 html`<li>
-                  ${item.tipoNave}
-                  <button
-                    class="buttonBorrar"
-                    @click=${() => this.borrarUno(item.tipoNave, "defensor")}
-                  >
-                    x
-                  </button>
-                </li> `
+                    ${item.tipoNave}
+                    <button
+                      class="buttonBorrar"
+                      @click=${() => this.borrarUno(item.tipoNave, "defensor")}
+                    >
+                      x
+                    </button>
+                  </li>
+                  <caracteristicas-naves
+                    .nave=${item}
+                  ></caracteristicas-naves> `
             )}
           </div>
         </div>
